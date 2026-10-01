@@ -1,6 +1,6 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主力對決 Whale Arena</title><style>html,body{margin:0;height:100%;background:#06090f;color:#9fb0d0;font:16px sans-serif}#s{padding:24px}</style></head><body><div id="s">載入中…</div><script>(async function(){var el=document.getElementById("s"),K=[2984542147,759513783,2185421275,2540810671];
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>主力對決 Whale Arena</title><style>html,body{margin:0;height:100%;background:#06090f;color:#9fb0d0;font:16px sans-serif}#s{padding:24px}</style></head><body><div id="s">載入中…</div><script>(async function(){var el=document.getElementById("s"),K=[2565766297,820897813,3591016511,2908534059];
 try{
-var r=await fetch("game.dat?v=80acc88dd0");if(!r.ok)throw new Error("下載失敗 HTTP "+r.status);
+var r=await fetch("game.dat?v=a8ce1b8edb");if(!r.ok)throw new Error("下載失敗 HTTP "+r.status);
 var len=+r.headers.get("content-length")||0,rd=r.body.getReader(),ch=[],got=0;
 for(;;){var x=await rd.read();if(x.done)break;ch.push(x.value);got+=x.value.length;el.textContent="下載遊戲中… "+(len?Math.min(100,Math.round(got/len*100))+"%":(got/1048576).toFixed(1)+" MB");}
 var u=new Uint8Array(got),o=0;ch.forEach(function(c){u.set(c,o);o+=c.length;});ch=null;
